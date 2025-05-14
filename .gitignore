@@ -1,0 +1,6 @@
+#Node MODULES
+Front-End/library-frontend/node_modules/
+Back-End/library-backend/node_modules/
+
+#Logs
+*.log

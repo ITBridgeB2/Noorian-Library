@@ -1,0 +1,99 @@
+/* Global container padding and font setup */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+}
+
+/* Top page title */
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #4b0082; /* Indigo */
+}
+
+/* Main container that centers the card */
+.details-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card box containing book information */
+.details-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Styling for each line of book info */
+.book-info p {
+  font-size: 18px;
+  margin: 15px 0;
+  color: #333;
+}
+
+/* Bold labels for book fields */
+.book-info strong {
+  color: #4b0082;
+}
+
+/* Button container: space between Edit and Delete */
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* Common button style */
+.edit-btn,
+.delete-btn {
+  flex: 1;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+/* Specific colors for each button */
+.edit-btn {
+  background-color: #4b0082;
+  margin-right: 10px;
+}
+
+.edit-btn:hover {
+  background-color: #5d14a4;
+}
+
+.delete-btn {
+  background-color: #c0392b;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  background-color: #e74c3c;
+}
+
+/* Back to home link */
+.back-link {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #4b0082;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
